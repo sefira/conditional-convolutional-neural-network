@@ -14,7 +14,7 @@ require 'gnuplot' -- display a image
 function file_exists(file)
     local f = io.open(file, "rb")
     if f then 
-        f:close() 
+        f:close()
     end
     return f ~= nil
 end
